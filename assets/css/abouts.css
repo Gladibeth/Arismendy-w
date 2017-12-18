@@ -13,7 +13,7 @@
 
 .nuestros-valores{
 	color: #FF5507;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: bolder;
 	margin-top:2rem;
 }
@@ -71,10 +71,5 @@
 	color:  #183167;	
 	padding-left: 1rem;
 }
-.linea-division{
-	width: 77%;
-	margin-left: 8rem;
-	background-color: black;
-	margin-bottom: 4rem;
-}
+
 
