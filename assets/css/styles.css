@@ -1,32 +1,15 @@
+@font-face {
+	font-family: 'SourceSansPro-Regular';
+	src:url('../fonts/SourceSansPro-Regular.otf');
+}
+@font-face {
+	font-family: 'SourceSansPro-Bold';
+	src:url('../fonts/SourceSansPro-Bold.otf');
+}
 *{
 	margin: 0;
 	padding:0;
-}
-/***************************
-		NAV
- **************************/
-
-header{
-	background-color:#fafafa;
-	width: 100%;
-	height: 171px;
-}
-.container{
-	padding-top:2.6rem;
-}
-.logo{
-	background-color:white;
-	width: 100%;
-	height: 110px;
-}
-.information{
-	float: right;
-}
-
-.cotizar{
-	background-color: #fafafa;
-	width: 100%;
-	height: 70px;
+	font-family: 'SourceSansPro-Regular';
 }
 p{
 	line-height: 0;
@@ -34,41 +17,7 @@ p{
 	text-align: right;
 }
 
-.direccion-nav{
-	line-height: 0;
-	font-size: 0.7rem;
-	text-align: right;
-}
-.button-cotizar{
-	background-color: #FF5507;
-	width: 149px;
-	height: 42px;
-	border-radius: 0 5px 0 5px;
-	border:none;
-}
-.nav-link{
-	padding: 0.5rem 0.5rem;
-	border-right: 1px solid #FF5507;
-	margin: 0;
-	color: #152F5E;	
 
-}
-.navbar{
-	margin-left: 6rem;
-	padding: 1rem 0 0 0;
-}
-.active-nav{
-	color: #FF5507;
-}
-.description-direcion-nav{
-	font-weight: bolder;
-	text-align: right;
-	color: #004883;
-
-}
-/***************************
-		NAV
- **************************/
 .img-carousel{
 	width: 100%;
 	height: 500px;
@@ -84,6 +33,9 @@ p{
 .services{
 	width: 100%;
 	height: 600px;
+	background-image: url('../img/servicios.png');
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .content-services{
 	width: 50%;
@@ -108,15 +60,18 @@ p{
 	height: 94px;
 	background-color: #1c4a83;
 	border-radius: 0 10px 0 10px;
-	padding: 1rem 0 0 0;
-	margin-bottom: 2rem;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buttons-services img{
+	height: 50%;
 }
 .title-services{
 	position: absolute;
 	left: 3rem;
 	font-size: 1rem;
-	
+
 	color: #1C5485;
 }
 .icons{
@@ -170,7 +125,7 @@ p{
 	padding: 3rem 2rem 0 0;
 	width: 300px;
 	height: 100px;
-	
+
 }
 
 .description-alquiler{
@@ -210,7 +165,7 @@ p{
 	font-weight: bolder;
 	margin-top: 2rem;
 
-	
+
 }
 .description-nosotros{
 	color: #173263;
@@ -296,7 +251,3 @@ p{
 /***************************
 		FOOTER
  **************************/
-
-
-
-
