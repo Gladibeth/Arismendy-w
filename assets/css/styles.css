@@ -34,6 +34,11 @@ p{
 	text-align: right;
 }
 
+.direccion-nav{
+	line-height: 0;
+	font-size: 0.7rem;
+	text-align: right;
+}
 .button-cotizar{
 	background-color: #FF5507;
 	width: 149px;
@@ -43,18 +48,16 @@ p{
 }
 .nav-link{
 	padding: 0.5rem 0.5rem;
+	border-right: 1px solid #FF5507;
+	margin: 0;
+	color: #152F5E;
 	
-
+	
 }
-/*.ultimo{
-	border-right: none;
-	border-right: 2px solid #FF5507;
-	font-weight: bolder;
-}*/
 .navbar{
 	margin-left: 6rem;
-	margin-top: 3rem;
 }
+
 .description-direcion-nav{
 	font-weight: bolder;
 	text-align: right;
