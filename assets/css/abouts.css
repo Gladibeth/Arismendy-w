@@ -1,0 +1,80 @@
+.nuestro-compromiso{
+	width: 100%;
+	height:900px;
+	margin-top: 4rem; 
+	padding-right: 4rem;
+}
+.descripcion-nuestro-compromiso{
+	width: 100%;
+	margin-top: 1rem;
+	color:  #183167;
+}
+
+
+.nuestros-valores{
+	color: #FF5507;
+	font-size: 1rem;
+	font-weight: bolder;
+	margin-top:2rem;
+}
+.img-certificacion{
+	width: 88%;
+	margin-top: 1rem;
+}
+.nuestra-historia{
+	padding-top: 2.5rem;
+}
+.titulo-historia{
+	color: #FF5507;
+}
+
+.descripcion-historia{
+	line-height: 1.2rem;
+	font-size: 1.1rem;
+	text-align: left;
+	padding-top:0.5rem;
+	color:  #183167;
+}
+.content-vi-mi{
+	line-height: 1.2rem;
+	font-size: 1.1rem;
+	text-align: left;
+	padding-top:0.5rem;
+
+	color:  #183167;
+}
+.mision-vision{
+	padding-top: 2.5rem;
+}
+.linea-historia{
+	width: 50%;
+	height: 0.1rem;
+	background-color: #183167;
+	margin-top: 7rem;
+}
+.objetivos{
+	width: 100%;
+	height: 350px;
+	padding-right: 4rem;
+
+}
+.titulo-poli-obj{
+	color: #FF5507;
+}
+.content-po-ob{
+	line-height: 1.2rem;
+	font-size: 1.1rem;
+	text-align: left;
+	color:  #183167;
+}
+.lista-obj{
+	color:  #183167;	
+	padding-left: 1rem;
+}
+.linea-division{
+	width: 77%;
+	margin-left: 8rem;
+	background-color: black;
+	margin-bottom: 4rem;
+}
+
