@@ -10,7 +10,7 @@
 	background-repeat: no-repeat;
 	font-weight: 900;
 }
-.container{
+.container-pt{
 	padding-top:2.6rem;
 }
 .logo{
@@ -30,37 +30,43 @@
 }
 p.direction-nav{
 	line-height: 0;
-	font-size: 0.7rem;
+	font-size: 12px;
 	text-align: right;
-	color: #1c4a83;
+	color: #427aaa;
 }
 .button-cotizar{
-	background-color: #FF5507;
+	background-color: #ff5507;
 	width: 149px;
 	height: 42px;
 	border-radius: 0 5px 0 5px;
 	border:none;
+	color: #fff;
+	font-family: 'SourceSansPro-Bold';
+	box-shadow:2px 2px 2px rgba(193, 193, 193, 0.7);
 }
 .nav-link{
 	padding: 0.5rem 0.5rem;
-	border-right: 2px solid #FF5507;
+	border-right: 2px solid #ff5507;
 	line-height: 5px;
 	margin: 0;
 	color: #152F5E;
+	transition: .3s;
 	font-family: 'SourceSansPro-Bold';
 }
 .nav-item:nth-last-child(1) .nav-link{
 	border-right: 0px;
 }
+.nav-link:hover{
+	color: #ff5507;
+	transition: .3s;
+}
 .navbar{
   margin-left: 6.5rem;
 	padding: 1rem 0 0 0;
 }
-.active-nav{
-	color: #FF5507;
-}
 .description-direction-nav{
 	font-family: 'SourceSansPro-Bold';
+	font-size: 13px;
 	text-align: right;
 	color: #004883;
 
