@@ -1,0 +1,76 @@
+/***************************
+		NAV
+ **************************/
+
+#header{
+	width: 100%;
+	height: 171px;
+	background-image: url('../img/navbar.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-weight: 900;
+}
+.container-pt{
+	padding-top:2.6rem;
+}
+.logo{
+	width: 100%;
+	height: 80px;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.information{
+	float: right;
+}
+.cotizar{
+	width: 100%;
+	height: 70px;
+}
+p.direction-nav{
+	line-height: 0;
+	font-size: 12px;
+	text-align: right;
+	color: #427aaa;
+}
+.button-cotizar{
+	background-color: #ff5507;
+	width: 149px;
+	height: 42px;
+	border-radius: 0 5px 0 5px;
+	border:none;
+	color: #fff;
+	font-family: 'SourceSansPro-Bold';
+	box-shadow:2px 2px 2px rgba(193, 193, 193, 0.7);
+}
+.nav-link{
+	padding: 0.5rem 0.5rem;
+	border-right: 2px solid #ff5507;
+	line-height: 5px;
+	margin: 0;
+	color: #152F5E;
+	transition: .3s;
+	font-family: 'SourceSansPro-Bold';
+}
+.nav-item:nth-last-child(1) .nav-link{
+	border-right: 0px;
+}
+.nav-link:hover{
+	color: #ff5507;
+	transition: .3s;
+}
+.navbar{
+  margin-left: 6.5rem;
+	padding: 1rem 0 0 0;
+}
+.description-direction-nav{
+	font-family: 'SourceSansPro-Bold';
+	font-size: 13px;
+	text-align: right;
+	color: #004883;
+
+}
+/***************************
+		NAV
+ **************************/

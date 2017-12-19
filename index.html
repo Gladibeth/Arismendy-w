@@ -3,36 +3,41 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arismendy Andrade</title>
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/ionicons.css">
 </head>
 <body>
-	<header id="header" class="" >
-		<div class="container">
+	<header id="header">
+		<div class="container container-pt">
 			<div class="row text-center">
 				<div class="col-lg-4 logo">
-					<h2>Arismendy Andrade</h2>
+					<img src="assets/img/logo.png" alt="logo">
 				</div>
 				<div class="col-lg-8 cotizar">
 					<div class="row">
-						<div class="col-lg-12">	
-							<div class="row information">	
+						<div class="col-lg-12">
+							<div class="row information">
 								<div class="col-lg-7 infomation-direction">
-									<p class="description-direcion-nav">Dirección</p>
-									<p class="direcion-nav">Calle 56 No. 2A-67 Vía Mamonal</p>
-									<p class="direcion-nav">Barrio Albornoz</p>
+									<p class="description-direction-nav">Dirección</p>
+									<p class="direction-nav">Calle 56 No. 2A-67 Vía Mamonal</p>
+									<p class="direction-nav">Barrio Albornoz</p>
 								</div>
 								<div class="col-lg-5 ">
-									<button type="submit" class="btn btn-primary text-center button-cotizar">Cotizar</button>
+									<button type="submit" class="btn text-center button-cotizar">Cotizar</button>
 								</div>
 						</div>
-						<div class="col-lg-12 navbar">	
+						<div class="col-lg-12 navbar">
 							<nav class="nav">
 								<ul class="nav justify-content-end">
 							    <li class="nav-item">
-							      <a class="nav-link active-nav" href="#">Inicio</a>
+							      <a class="nav-link" href="#">Inicio</a>
 							    </li>
 							    <li class="nav-item">
 							      <a class="nav-link" href="#">Nosotros</a>
@@ -47,94 +52,69 @@
 							      <a class="nav-link" href="#">Servicios</a>
 							    </li>
 							    <li class="nav-item">
-							      <a class="nav-link " href="#">Contactos</a>
+							      <a class="nav-link " href="#">Contacto</a>
 							    </li>
-							  </ul> 
+							  </ul>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</header><!-- /header -->
-	<section>
-		<div class="container-fluid">	
-			<div id="demo" class="carousel slide" data-ride="carousel">
-			  <ul class="carousel-indicators">
-			    <li data-target="#demo" data-slide-to="0" class="active"></li>
-			    <li data-target="#demo" data-slide-to="1"></li>
-			    <li data-target="#demo" data-slide-to="2"></li>
-			  </ul>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="img-carousel" src="assets/img/2.jpg" alt="Los Angeles" >
-			      <div class="carousel-caption">
-			        <h1>Los Angeles</h1>
-			        <p>We had such a great time in LA!</p>
-			      </div>   
-			    </div>
-			    <div class="carousel-item">
-			      <img class="img-carousel" src="assets/img/1.jpg" alt="Chicago" >
-			      <div class="carousel-caption">
-			        <h1>Chicago</h1>
-			        <p>Thank you, Chicago!</p>
-			      </div>   
-			    </div>
-			    <div class="carousel-item">
-			      <img class="img-carousel" src="assets/img/1.jpg" alt="New York" >
-			      <div class="carousel-caption">
-			        <h1>New York</h1>
-			        <p>We love the Big Apple!</p>
-			      </div>   
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-			    <span class="carousel-control-prev-icon"></span>
-			  </a>
-			  <a class="carousel-control-next" href="#demo" data-slide="next">
-			    <span class="carousel-control-next-icon"></span>
-			  </a>
+	</header>
+	<section id="home-carousel">
+		<div class="single-item">
+			<div class="home-img" style="background-image:url('assets/img/2.jpg');">
+				<div class="mask-patron">
+					<div class="caption">
+						<div class="title-caption">
+							<h2>Diseño e Ingeniería sin limites</h2>
+							<p>Espacios funcionales y perfectos en Contenedores para oficinas y bodegas</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home-img" style="background-image:url('assets/img/2.jpg');">
+				<div class="mask-patron">
+					<div class="caption">
+						<div class="title-caption">
+							<h2>Diseño e Ingeniería sin limites</h2>
+							<p>Espacios funcionales y perfectos en Contenedores para oficinas y bodegas</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="services">
-		<div class="container">
+		<div class="container container-pt">
 			<div class="content-services">
 				<h4 class="description-services">Expertos en resolver y desarrollar soluciones para proyectos de ingenieria, Oficinas Contenedores y Mantenimiento Industrial</h4>
 				<p class="text-services">Servicios para el desarrollo de sus proyectos y megaproyectos</p>
 			</div>
 			<div class="buttons">
 				<div class="row text-center">
-					<div class="col-lg-3">
-						<div  class="buttons-services">
-							<span class="ion-ios-home icons active"></span>
-
-						</div>
+					<div class="col-lg-3 icon-service">
+						<div id="house" class="buttons-services"></div>
 						<div class="title">
 							<p class="title-services active-services">Contenedores</p>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div  class="buttons-services">
-							<span class="ion-ios-home icons"></span>
-						</div>
+					<div class="col-lg-3 icon-service">
+						<div id="crane" class="buttons-services"></div>
 						<div class="title">
 							<p class="title-services">Andamios</p>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div  class="buttons-services">
-							<span class="ion-ios-home icons"></span>
-						</div>
+					<div class="col-lg-3 icon-service">
+						<div id="toilet" class="buttons-services"></div>
 						<div class="title">
 							<p class="title-services">Baños</p>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div  class="buttons-services">
-							<span class="ion-ios-home icons"></span>
-						</div>
+					<div class="col-lg-3 icon-service">
+						<div id="truck" class="buttons-services"></div>
 						<div class="title">
 							<p class="title-services">Transporte</p>
 						</div>
@@ -148,10 +128,9 @@
 		<div class="container-fluid " id="alquiler-equipos">
 			<div class="img-alquiler">
 				<div class="content-img text-center">
-					<div class="content-descripcion">
-						<h5 class="descripcion-alquiler">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.</h5>
-						<button class="btn btn-default button-alquiler">Alquiler equipos</button>
+					<div class="content-description">
+						<h5 class="description-alquiler">Alquiler de maquinaria pesada, andamios y equipos para trabajo en altura. Desarrolla tus proyectos con tecnología adecuada</h5>
+						<button class="btn btn-default button-alquiler">Alquilar equipos</button>
 					</div>
 				</div>
 			</div>
@@ -159,53 +138,71 @@
 	</section>
 
 	<section class="nosotros">
-		<div class="container-nosotros">
+		<div class="container container-nosotros">
 			<div class="content-nosotros">
-				<h6 class="descripcion-nosotros">Gracias a nuestra experiencia hemos logrado garantizar nuestros servicios. Nuestros clientes lo definen como servicios confiables, oportunos y de calidad</h6>
-				<p class="text-nosotros">Saber mas acerca de nuestra empresa</p>
+				<h6 class="description-nosotros">Gracias a nuestra experiencia hemos logrado garantizar nuestros servicios. Nuestros clientes lo definen como servicios confiables, oportunos y de calidad</h6>
+				<a href=""><p class="text-nosotros">Saber más acerca de nuestra empresa</p></a>
 			</div>
 		</div>
 	</section>
 
-	<section class="carousel-clientes">
-		carousel -- amiga no me dios tiempo de hacerlo :(
+	<section>
+		<div class="container carousel-clients container-pt">
+			<div class="row">
+				<div class="col-lg-2 logo-clients">
+					<img src="assets/img/cotecmar.png" alt="">
+				</div>
+				<div class="col-lg-2 logo-clients">
+					<img src="assets/img/cemex.png" alt="">
+				</div>
+				<div class="col-lg-2 logo-clients">
+					<img src="assets/img/ecopetrol.png" alt="">
+				</div>
+				<div class="col-lg-2 logo-clients">
+					<img src="assets/img/tenaris.png" alt="">
+				</div>
+				<div class="col-lg-2 logo-clients">
+					<img src="assets/img/puertob.png" alt="">
+				</div>
+				<div class="col-lg-2 logo-clients">
+					<img src="assets/img/abocol.png" alt="">
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section id="descargas">
-		<div class="container descargas ">
-			<div class="descripcion-descargas text-center">	
+		<div class="container descargas container-pt">
+			<div class="description-descargas text-center">
 				<h5>Descarga Nuestro portafolio digital de servicios 2017</h5>
-
-				<button class="btn btn-default button-descarga">Descargar</button>
+				<button class="btn btn-default button-descarga">Descargar <img src="assets/img/download.png" alt=""></button>
 			</div>
 		</div>
 	</section>
-	<hr class="linea">
 
 	<footer id="footer">
+		<hr class="linea">
   	<div class="container ">
   		<div class="row content-footer ">
-  			<div class="col-lg-3 text-center">
-  			
-          <div class="descripcion-direccion">
-            <p class="descripcion-direcion">Brindamos soluciones parael desarrollo de proyectos de ingeniería, construccíon y mantenimiento industrial</p>
-            <p class="descripcion-direcion-titulo">Dirección</p>
-            <p class="descripcion-direcion">Carrera 56 No. 2A-67 Vía Mamonal <br>
+  			<div class="col-lg-4 text-center">
+          <div class="description-direction">
+            <p class="description-direcion">Brindamos soluciones parael desarrollo de proyectos de ingeniería, construccíon y mantenimiento industrial</p>
+            <p class="description-direcion-title">Dirección</p>
+            <p class="description-direcion">Carrera 56 No. 2A-67 Vía Mamonal <br>
             Barrio Albornoz</p>
           </div>
   			</div>
-  			<div class="col-lg-3 text-center search-something">
+  			<div class="col-lg-2 text-center search-something">
   				<div class="title-footer search-title">
-  					<p class="descripcion-direcion-titulo">Telefonos de contacto</p>
-  					<p class="descripcion-direcion">(5) 657 2320-6571875 <br>321 541 7874 <br>321 541 7885
+  					<p class="description-direcion-title">Teléfonos de contacto</p>
+  					<p class="description-direcion">(5) 657 2320-6571875 <br>321 541 7874 <br>321 541 7885
   					<br>314-594-9273</p>
-  					
   				</div>
   			</div>
   			<div class="col-lg-3 text-center">
-  				<div class="titulo-footer ">
-  					<p class="descripcion-direcion-titulo">Direcion de correos corporativos</p>
-  					<p class="descripcion-direcion"><a href="#" title="">gestioncomercial@arismendyandrade.com</a></p>
+  				<div class="title-footer opening-title">
+  					<p class="description-direcion-title">Directorio de correos corporativos</p>
+  					<p class="description-direcion"><a href="#" title="">gestioncomercial@arismendyandrade.com</a></p>
   				</div>
   			</div>
   			<div class="col-lg-3 text-center">
@@ -221,8 +218,10 @@
     <div class="end-footer text-center">
       <p class="diseño-desarrollo">Diseño y Desarrollo <a href="#" title="">www.grupobrieva.com</a></p>
     </div>
-  </footer>	
+  </footer>
 	<script src="assets/js/jquery-3.1.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/slick.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
