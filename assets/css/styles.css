@@ -349,7 +349,7 @@ h4.description-services{
 .container-nosotros{
 	width: 70%;
 }
-.description-nosotros{
+.descripcion-nosotros{
 	color: #173263;
 	font-size: 1.2rem;
 }
@@ -384,7 +384,7 @@ h4.description-services{
 	height: 190px;
 	background-color: #1c4a83;
 }
-.description-descargas{
+.descripcion-descargas{
 	color: white;
 
 }
@@ -426,7 +426,7 @@ h4.description-services{
 .content-footer{
 	padding: 0 2.5rem 0 3.5rem;
 }
-.description-direcion{
+.descripcion-direcion{
 	line-height: 1rem;
 	text-align: left;
 	color: #1c4a83;
@@ -435,6 +435,9 @@ h4.description-services{
 .description-direcion-title{
 	font-family: 'SourceSansPro-Bold';
 	font-size: 14px;
+}
+.descripcion-direcion-titulo{
+	font-weight: bolder;
 	text-align: left;
 	color: #004883;
 }
@@ -447,3 +450,4 @@ h4.description-services{
 /***************************
 		FOOTER
  **************************/
+
