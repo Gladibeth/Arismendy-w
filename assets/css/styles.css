@@ -349,14 +349,15 @@ h4.description-services{
 .container-nosotros{
 	width: 70%;
 }
-.descripcion-nosotros{
+.description-nosotros{
 	color: #173263;
 	font-size: 1.2rem;
 }
 
 .carousel-clients{
-	width: 70%;
+	width: 100%;
 	height: 150px;
+	padding-bottom: 1rem;
 }
 .logo-clients{
 	display: flex;
@@ -380,13 +381,12 @@ h4.description-services{
 	height: 270px;
 }
 .descargas{
-	width: 70%;
+	width: 100%;
 	height: 190px;
 	background-color: #1c4a83;
 }
-.descripcion-descargas{
+.description-descargas{
 	color: white;
-
 }
 .button-descarga{
 	width: 184px;
@@ -396,6 +396,7 @@ h4.description-services{
 	color: white;
 	font-family: 'SourceSansPro-Bold';
 	margin-top: 2rem;
+	box-shadow:2px 2px 2px rgba(0, 0, 0, 0.32);
 }
 .button-descarga img{
 	width: 10%;
@@ -405,9 +406,8 @@ h4.description-services{
 		DESCARGA
  **************************/
 .linea{
-	width: 71%;
+	width: 100%;
 	height: 0.5px;
-	margin-left: 13rem;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -417,14 +417,19 @@ h4.description-services{
  **************************/
 #footer{
 	width: 100%;
-	height: 245px;
+	height: 230px;
 	background-image:url('../img/footer.png');
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	margin-top: -2.5rem;
 }
+.container-footer,
+.container-linea{
+	padding-right: 0;
+	padding-left: 0;
+}
 .content-footer{
-	padding: 0 2.5rem 0 3.5rem;
+	padding: 2rem 0 0 0;
 }
 .descripcion-direcion{
 	line-height: 1rem;
@@ -435,19 +440,19 @@ h4.description-services{
 .description-direcion-title{
 	font-family: 'SourceSansPro-Bold';
 	font-size: 14px;
-}
-.descripcion-direcion-titulo{
-	font-weight: bolder;
 	text-align: left;
 	color: #004883;
+}
+.end-footer{
+	padding-bottom: 20px;
 }
 .diseño-desarrollo{
 	font-weight: bolder;
 	text-align: right;
-	color: #004883
+	color: #004883;
+	font-size: 13px;
 }
 
 /***************************
 		FOOTER
  **************************/
-
