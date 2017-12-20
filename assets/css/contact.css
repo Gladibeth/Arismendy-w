@@ -1,0 +1,79 @@
+#contact{
+	width: 100%;
+	height: 2000px;
+}
+.content-contact{
+	width: 50%;
+	padding-top: 2rem;
+}
+.title-contact{
+	color: #163262;
+}
+.valores{
+	color:#FF5507;
+	font-weight: bolder;
+	font-size: 1.1rem;
+	padding-top: 0.5rem;
+}
+.contant-inputs{
+	padding-top:5rem;
+}
+.contant-inputs-medium{
+	padding-top: 2rem;
+}
+.title-input{
+	margin-right: 2rem;
+	color: #163262;
+	font-weight: bolder;
+	font-size: 1.1rem;
+}
+.telefono{
+	margin-right: 1.9rem;
+
+}
+.ciudad{
+	margin-right: 2.7rem;
+}
+.correo{
+	margin-right: 3.2rem;
+}
+.empresa{
+	margin-right: 2.5rem;
+}
+.datos{
+	border-radius: 50px;
+	background-color: #EEEEEE;
+	border:none;
+	width: 80%;
+	height:30px;
+	padding-left: 1rem;
+}
+.datos:focus{
+	outline-color: transparent !important;
+}
+
+.title-menssage{
+	padding-bottom: 1rem;
+}
+.message{
+	border-radius: 30px;
+	background-color: #EEEEEE;
+	border:none;
+	height: 488px;
+	width: 100%;
+	outline-color: transparent !important;
+	resize: none;
+	padding-left: 1rem;
+	padding-top: 1rem;
+}
+.button-enviar{
+	background-color: #ff5507;
+	width: 149px;
+	height: 42px;
+	border-radius: 0 5px 0 5px;
+	border:none;
+	color: #fff;
+	font-family: 'SourceSansPro-Bold';
+	box-shadow:2px 2px 2px rgba(193, 193, 193, 0.7);
+	margin-top: 55px;
+}
