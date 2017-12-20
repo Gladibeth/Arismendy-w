@@ -63,7 +63,9 @@
 	height: 350px;
 	padding-top: 60px;
 	padding-right: 3rem;
-
+	background-image: url('../img/politicas.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 .container-pl{
 	padding-left: 25px;
