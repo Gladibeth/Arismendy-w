@@ -1,13 +1,18 @@
 .nuestro-compromiso{
 	width: 100%;
-	height:900px;
-	margin-top: 4rem; 
-	padding-right: 4rem;
+  padding-top: 190px;
+	padding-right: 3rem;
+	background-image: url('../img/servicios.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+  background-position: 0 -22%;
 }
 .descripcion-nuestro-compromiso{
 	width: 100%;
 	margin-top: 1rem;
 	color:  #183167;
+	font-size: 32px;
+  line-height: 1.2;
 }
 
 
@@ -26,19 +31,20 @@
 }
 .titulo-historia{
 	color: #FF5507;
+	font-family: 'SourceSansPro-Bold';
 }
 
 .descripcion-historia{
-	line-height: 1.2rem;
+	line-height: 1.4rem;
 	font-size: 1.1rem;
-	text-align: left;
+	text-align: justify;
 	padding-top:0.5rem;
 	color:  #183167;
 }
 .content-vi-mi{
-	line-height: 1.2rem;
+	line-height: 1.4rem;
 	font-size: 1.1rem;
-	text-align: left;
+	text-align: justify;
 	padding-top:0.5rem;
 
 	color:  #183167;
@@ -50,26 +56,29 @@
 	width: 50%;
 	height: 0.1rem;
 	background-color: #183167;
-	margin-top: 7rem;
+	margin-top: 5rem;
 }
 .objetivos{
 	width: 100%;
 	height: 350px;
-	padding-right: 4rem;
+	padding-top: 60px;
+	padding-right: 3rem;
 
+}
+.container-pl{
+	padding-left: 25px;
 }
 .titulo-poli-obj{
 	color: #FF5507;
+	font-family: 'SourceSansPro-Bold';
 }
 .content-po-ob{
-	line-height: 1.2rem;
+	line-height: 1.4rem;
 	font-size: 1.1rem;
-	text-align: left;
+	text-align: justify;
 	color:  #183167;
 }
 .lista-obj{
-	color:  #183167;	
+	color:  #183167;
 	padding-left: 1rem;
 }
-
-
