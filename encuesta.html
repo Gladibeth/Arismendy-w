@@ -18,7 +18,7 @@
 		<div class="container container-pt">
 			<div class="row text-center">
 				<div class="col-lg-4 logo">
-					<img src="assets/img/logo.png" alt="logo">
+					<a href="/"><img src="assets/img/logo.png" alt="logo"></a>
 				</div>
 				<div class="col-lg-8 cotizar">
 					<div class="row">
@@ -30,14 +30,14 @@
 									<p class="direction-nav">Barrio Albornoz</p>
 								</div>
 								<div class="col-lg-5 ">
-									<button type="submit" class="btn text-center button-cotizar">Cotizar</button>
+									<button type="submit" class="btn text-center button-cotizar" data-toggle="modal" data-target="#myModal">Cotizar</button>
 								</div>
 						</div>
 						<div class="col-lg-12 navbar">
 							<nav class="nav">
 								<ul class="nav justify-content-end">
 									<li class="nav-item">
-										<a class="nav-link" href="#">Inicio</a>
+										<a class="nav-link" href="/">Inicio</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -46,8 +46,8 @@
 										<a class="nav-link" href="#">Contenedores de Baños</a>
 										<div class="dropdown">
 											<div class="dropdown-content">
-												<a href="#">Contenedores oficinas móviles</a>
-												<a href="#">Baños ecológicos</a>
+												<a href="contenedores.html">Contenedores oficinas móviles</a>
+												<a href="contenedores.html">Baños ecológicos</a>
 											</div>
 										</div>
 									</li>
@@ -55,9 +55,9 @@
 										<a class="nav-link" href="#">Alquiler de maquinaria</a>
 										<div class="dropdown">
 											<div class="dropdown-content">
-												<a href="#">Maquinaria pesada</a>
-												<a href="#">Equipos menores</a>
-												<a href="#">Equipos de izaje</a>
+												<a href="alquiler.html">Maquinaria pesada</a>
+												<a href="alquiler.html">Equipos menores</a>
+												<a href="alquiler.html">Equipos de izaje</a>
 											</div>
 										</div>
 									</li>
@@ -65,11 +65,11 @@
 										<a class="nav-link" href="#">Servicios</a>
 										<div class="dropdown">
 											<div class="dropdown-content">
-												<a href="#">Transporte</a>
-												<a href="#">Obras Civiles</a>
-												<a href="#">Andamios</a>
-												<a href="#">Refrigeración</a>
-												<a href="#">Alivios térmicos</a>
+												<a href="servicios.html">Transporte</a>
+												<a href="servicios.html">Obras Civiles</a>
+												<a href="servicios.html">Andamios</a>
+												<a href="servicios.html">Refrigeración</a>
+												<a href="servicios.html">Alivios térmicos</a>
 											</div>
 										</div>
 									</li>
@@ -84,6 +84,73 @@
 			</div>
 		</div>
 	</header>
+	<!-- The Modal -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Modal body -->
+				<div class="modal-body">
+					<form action="" method="get" accept-charset="utf-8">
+						<div class="container">
+							<div class="row contant-inputs">
+								<div class="col-lg-6">
+									<label class="title-input" for="">Nombre y Apellido</label>
+									<input class="datos-modal" type="text" name="Nombre">
+								</div>
+								<div class="col-lg-6">
+									<label for="" class="title-input correo">Email</label>
+								 <input class="datos-modal" type="text" name="Nombre">
+								</div>
+							</div>
+
+							<div class="row contant-inputs-medium">
+								<div class="col-lg-6">
+									<label class="title-input telefono" for="">Empresa</label>
+									<input class="datos-modal" type="text" name="Nombre">
+								</div>
+								<div class="col-lg-6">
+									<label class="title-input empresa" for="">Ciudad</label>
+								 <input class="datos-modal" type="text" name="Nombre">
+								</div>
+							</div>
+							<div class="row contant-inputs-medium">
+								<div class="col-lg-12">
+									<label class="title-input telefono" for="">Producto a cotizar</label>
+									<select class="datos-modal" type="text" name="Nombre">
+										<option value="">Producto 1</option>
+										<option value="">Producto 2</option>
+										<option value="">Producto 3</option>
+									</select>
+								</div>
+							</div>
+							<div class="row contant-inputs-medium">
+								<div class="col-lg-6">
+									<label class="title-input empresa" for="">Fecha a reservar - Inicio</label>
+									<input class="form-control datos-modal" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+								</div>
+								<div class="col-lg-6">
+									<label class="title-input empresa" for="">Fecha a reservar - Fin</label>
+									<input class="form-control datos-modal" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+								</div>
+							</div>
+							<div class="row contant-inputs-medium">
+								<div class="col-lg-12">
+									<label class="title-input title-menssage" for="">Comentarios adicionales</label>
+									<textarea type="message" class="message"></textarea>
+								</div>
+							</div>
+							<!-- <button class="btn btn-default button-enviar">Enviar</button> -->
+						</div>
+					</form>
+				</div>
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+					<button class="btn btn-default button-enviar-modal" data-dismiss="modal">Enviar</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<section class="encuesta" id="encuesta">
 		<div class="container">
@@ -288,7 +355,7 @@
       </div>
       <hr class="separador">
       <div class="question last-question">
-        <h3 class="question-encuesta">7. ¿Tiene algún otro comentario, preguinta o inquitud?</h3>
+        <h3 class="question-encuesta">7. ¿Tiene algún otro comentario, pregunta o inquietud?</h3>
 
         <textarea type="message" class="message-escuesta-1" placeholder="Escriba sus comentario aquí"></textarea>
         <button type="submit" class="button-encuesta">Enviar</button>
@@ -329,7 +396,7 @@
 				<div class="col-sm-12 col-md-6 col-lg-3 text-center">
 					<div class="titulo-footer opening-title">
 						<p class="description-direcion-title">Canal de PQRS</p>
-						<p class="descripcion-direcion">Para diligenciar una PQRS por favor llenar la informacion <a href="#" title="">AQUÍ</a> o escribanos a refrigeración@arismendyandrade.com</p
+						<p class="descripcion-direcion">Para diligenciar una PQRS por favor llenar la informacion <a href="encuesta.html" title="">AQUÍ</a> o escribanos a refrigeración@arismendyandrade.com</p
 					</div>
 				</div>
 			</div>
@@ -337,13 +404,18 @@
 	</footer>
 	<footer>
 		<div class="container end-footer text-center">
-			<p class="diseño-desarrollo">Diseñado por <a href="#" title="">www.grupobrieva.com</a> | Desarrollado por <a href="#">Slice Group</a></p>
+			<p class="diseño-desarrollo">Diseñado por <a href="http://grupobrieva.com" target="_blank">www.grupobrieva.com</a> | Desarrollado por <a href="http://slicegroup.xyz" target="_blank">Slice Group</a></p>
 		</div>
 	</footer>
 
 
-	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery-3.1.1.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/slick.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- Bootstrap Date-Picker Plugin -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
 
 </body>
 </html>
