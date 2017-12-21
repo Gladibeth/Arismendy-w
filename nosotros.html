@@ -15,6 +15,8 @@
 </head>
 <body>
 	<header id="header">
+		<button type="button" class="navbar-toggle togglebutton" data-toggle="collapse" data-target=".navbar-collapse">
+		<!--<span id="button" class="burguer-button ion-chatbox-working" ></span>-->
 		<div class="container container-pt">
 			<div class="row text-center">
 				<div class="col-lg-4 logo">
@@ -33,7 +35,8 @@
 									<button type="submit" class="btn text-center button-cotizar" data-toggle="modal" data-target="#myModal">Cotizar</button>
 								</div>
 						</div>
-						<div class="col-lg-12 navbar">
+
+						<div class="col-lg-12 navbar active" id="menu">
 							<nav class="nav">
 								<ul class="nav justify-content-end">
 									<li class="nav-item">
@@ -193,13 +196,13 @@
 					lo cual nos permite una localización estratégica para atender a todos nuestros clientes actuales y potenciales a nivel nacional.</p>
 			</div>
 			<div class="row mision-vision">
-				<div class="col-lg-6 col-xs-12">
+				<div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
 					<h2 class="titulo-historia">Misión</h2>
 					<p class="content-vi-mi">Brindar soluciones integrales para el desarrollo de proyectos de ingeniería de construcción y
 						mantenimiento industrial garantizando a nuestros clientes servicios con ables, oportunos y con calidad, con un talento humano altamente cali cado, bajo una  losofía de compromiso, lealtad y cumplimiento.</p>
 					<hr class="linea-historia" style="margin-top:8rem;">
 				</div>
-				<div class="col-lg-6 col-xs-12">
+				<div class="col-sm-12 col-md-12 col-lg-6 col-xs-12 separacion">
 					<h2 class="titulo-historia">Visión</h2>
 					<p class="content-vi-mi">En el año 2020 Arismendy Andrade, será una organización consolidada y reconocida a nivel nacional, en la prestación de servicios que brinden soluciones integrales e innovadoras para el desarrollo de proyectos de ingeniería de construcción y mantenimiento industrialcon un talento
 						humano que garantice un alto nivel de servicio a nuestros clientes y trabajando de manera socialmente responsable en unión a nuestro entorno.</p>
@@ -213,12 +216,12 @@
 	<section class="objetivos">
 		<div class="container container-pl">
 			<div class="row">
-				<div class="col-lg-6 col-xs-12">
+				<div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
 					<h2 class="titulo-poli-obj">Políticas</h2>
 					<p class="content-po-ob">Orientar sus esfuerzos a satisfacer las necesidades y atender las expectativas de nuestros clientes, colaboradores, proveedores, accionistas y la sociedad en general garantizando a nuestros clientes
 						servicios con ables, oportunos y con calidad, con un talento humano altamente cali cado, bajo una  losofía de compromiso, lealtad y cumplimiento.</p>
 				</div>
-				<div class="col-lg-6 col-xs-12">
+				<div class="col-sm-12 col-md-12 col-lg-6 col-xs-12 separacion">
 					<h2 class="titulo-poli-obj">Objetivo de Calidad</h2>
 					<ol class="lista-obj">
 						<li>Mejorar continuamente los procesos que conforman el sistemas de gestion de la empresa, optimizar los servicios que le prestamos a nuestros clientes</li>
@@ -235,7 +238,7 @@
 		</div>
 		<div class="container container-footer">
 			<div class="row content-footer ">
-				<div class="col-lg-3 text-center">
+				<div class="col-sm-12 col-md-6 col-lg-3 text-center">
 
 					<div class="descripcion-direccion">
 						<p class="descripcion-direcion">Brindamos soluciones parael desarrollo de proyectos de ingeniería, construccíon y mantenimiento industrial</p>
@@ -244,7 +247,7 @@
 						Barrio Albornoz</p>
 					</div>
 				</div>
-				<div class="col-lg-3 text-center search-something">
+				<div class="col-sm-12 col-md-6 col-lg-3 text-center search-something">
 					<div class="title-footer search-title">
 						<p class="description-direcion-title">Telefonos de contacto</p>
 						<p class="descripcion-direcion">(5) 657 2320-6571875 <br>321 541 7874 <br>321 541 7885
@@ -252,13 +255,13 @@
 
 					</div>
 				</div>
-				<div class="col-lg-3 text-center">
+				<div class="col-sm-12 col-md-6 col-lg-3 text-center">
 					<div class="titulo-footer ">
 						<p class="description-direcion-title">Direcion de correos corporativos</p>
 						<p class="descripcion-direcion"><a href="#" title="">gestioncomercial@arismendyandrade.com</a></p>
 					</div>
 				</div>
-				<div class="col-lg-3 text-center">
+				<div class="col-sm-12 col-md-6 col-lg-3 text-center">
 					<div class="titulo-footer opening-title">
 						<p class="description-direcion-title">Canal de PQRS</p>
 						<p class="descripcion-direcion">Para diligenciar una PQRS por favor llenar la informacion <a href="encuesta.html" title="">AQUÍ</a> o escribanos a refrigeración@arismendyandrade.com</p
@@ -273,13 +276,23 @@
 		</div>
 	</footer>
 
+	<!--<script>
+		var $button = getElementById('button');
+		var $menu = getElementById('menu');
+		$button.addEventListener('touchstart',function(){
+			$menu.classList.toogle('active')
+		});
+		
+	</script>-->
 
 	<script src="assets/js/jquery-3.1.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
 	<script src="assets/js/slick.js"></script>
 	<script src="assets/js/main.js"></script>
 	<!-- Bootstrap Date-Picker Plugin -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
 </body>
 </html>
