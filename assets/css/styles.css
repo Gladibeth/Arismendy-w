@@ -21,6 +21,9 @@ p{
 	line-height: 0;
 	font-size: 0.7rem;
 }
+button{
+	cursor: pointer;
+}
 /***************************
 		CAROUSEL - HOME
  **************************/
@@ -112,7 +115,7 @@ p{
 .slick-next:before
 {
     font-family: 'Ionicons';
-    font-size: 35px;
+    font-size: 40px;
     line-height: 1;
 
     opacity: .75;
@@ -128,7 +131,7 @@ p{
 }
 .slick-prev:before
 {
-  content: "\f124";
+  content: "\f3cf";
 }
 .slick-next
 {
@@ -136,7 +139,7 @@ p{
 }
 .slick-next:before
 {
-  content: "\f125";
+  content: "\f3d1";
 }
 /***************************
 		SECCION DE SERVICIOS

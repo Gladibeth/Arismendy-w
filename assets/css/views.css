@@ -1,0 +1,56 @@
+#services{
+  padding: 50px 30px 70px 30px;
+}
+#accordion{
+  border-right: 2px solid #1c4a83;
+}
+.card{
+  border: 1px solid #fff;
+}
+.card-header{
+  padding: 20px 0 20px 50px;
+  background-color: #fff;
+  text-align: left;
+}
+ul.nav-pills{
+  padding: 10px 0 10px 60px;
+}
+ul.nav-pills li a{
+  color: #1c4a83;
+}
+ul.nav-pills li a:hover{
+  color: #ff5507;
+}
+.collapse ul li a.active{
+  color: #ff5507;
+  font-family: 'SourceSansPro-Bold';
+}
+ul.nav-pills li{
+  list-style: none;
+}
+.mb-0 a{
+  color: #1c4a83;
+  font-family: 'SourceSansPro-Bold';
+}
+.img-overview{
+  display: flex;
+  justify-content: center;
+}
+.img-overview img{
+  height: 90%;
+  width: 60%;
+  border-radius: 10% 0 10% 0;
+}
+.description-overview{
+  padding-top: 50px;
+}
+.description-overview h3{
+  color: #1c4a83;
+  margin-bottom: 30px;
+}
+.description-overview p{
+  line-height: normal;
+  color: #1c4a83;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
