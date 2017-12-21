@@ -1,10 +1,185 @@
 @media screen and (min-width:0px) and (max-width:991px) {
+  .nuestra-historia{
+    padding-right: 0.5rem;
+  }
+  .mision-vision{
+    padding-right: 0.5rem;
+  }
+  .lista-obj{
+    padding-left: 0;
+    font-size: 1.2rem;
+  }
+  .separacion{
+    margin-top: 2rem;
+  }
   .nuestro-compromiso{
     padding-right: 0;
     height: auto;
+    padding-top: 50px;
   }
   .nuestro-compromiso .linea-historia{
     margin-top: 3rem !important;
     margin-bottom: 20px;
   }
+  #header{
+    background-image: none;
+    height: auto;
+    margin-bottom: 5rem;
+
+  }
+  .mask-patron{
+    background-image: none;
+  }
+  .title-caption h2{
+    font-size: 1.5rem;
+  }
+  .title-caption p{
+    font-size: 1.2rem;
+  }
+  .objetivos{
+    height: auto;
+    margin-bottom: 10px;
+    background-image: none;
+  }
+  #footer{
+    height: auto;
+    margin-top: 1rem;
+    padding: 0 2rem;
+  }
+  .diseño-desarrollo{
+    font-size: 10px;
+  }
+  .datos{
+    width: 98%;
+  }
+  .button-enviar{
+    margin-left: 2rem;
+  }
+  .valores{
+    font-size: 1rem;
+  }
+  .title-contact{
+    font-size: 1.3rem;
+  }
+  #contact{
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  #encuesta{
+    height: auto;
+  }
+  .last-question{
+    margin-bottom: 4rem;
+  }
+
+  /*.button-cotizar{
+    margin-left: 8rem;
+  }
+  .navbar{
+    border:1px solid red;
+    margin-left: 0;
+    background-color: rgba(43, 76, 156, 0.3686274509803922);
+    position: absolute;
+    top: -7.6rem;
+    left: -100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: .3s;
+
+  }
+  .navbar.active{
+    left: 0%;
+  }
+  .justify-content-end{
+    display: block;
+    width: 100%;
+  }
+  .nav-link{
+    border-right: none;
+    padding:2rem;
+    border-bottom: 1px solid black;
+
+  }
+  .nav-link:first-child{
+     border-top: 1px solid black;
+  }
+
+  .burguer-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 3;
+  }*/
+}
+@media (min-width: 400px) and (max-width: 767px){
+
+  #footer{
+    height: auto;
+    margin-top: 1rem;
+    padding: 0 3rem;
+  }
+  #encuesta{
+    margin-left: 1rem;
+  }
+  #questions{
+    margin-left: 1rem;
+  }
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1024px){
+  #footer{
+    height: auto;
+    margin-top: 1rem;
+    padding: 0 6rem;
+  }
+   #encuesta{
+    margin-left: 1.5rem;
+  }
+  #questions{
+    margin-left: 1.5rem;
+
+  }
+  .diseño-desarrollo{
+    font-size: 13px;
+    margin-top: 1rem;
+  }
+  .datos{
+    width: 90%;
+  }
+  .message-escuesta-1{
+    width: 97%;
+  }
+
+}
+/*Fin Tablet*/
+
+/*Laptop pequeña*/
+@media (min-width: 992px) and (max-width: 1280px){
+  .description-direcion-title{
+    font-size: 12px;
+  }
+  .descripcion-direcion{
+    font-size: 11px;
+  }
+}
+/*Fin Laptop pequeña*/
+
+/*Laptop*/
+@media (min-width: 1281px) and (max-width: 1380px){
+  html {
+   
+
 }
