@@ -1,17 +1,68 @@
 @media screen and (min-width:0px) and (max-width:992px) {
+  header#header{
+    display: none;
+  }
+  #nav-mobile{
+    padding: 1rem 0;
+  }
+  .nav-link-m{
+  	padding: 1rem 0.5rem;
+  	line-height: 5px;
+  	margin: 0;
+    border-left: 2px solid #ff5507;
+  	color: #1c4a83;
+    transition: .3s;
+  	font-family: 'SourceSansPro-Bold';
+  }
+  .nav-link-m:hover{
+  	color: #ff5507;
+  	transition: .3s;
+  }
+  .mobile-ul{
+    padding: 1rem 0;
+  }
+  .mobile-ul li{
+    padding: .5rem 0;
+    /*border-bottom: 2px solid #ff5507*/
+  }
+  .navbar-toggler{
+    position: absolute;
+    right: 0;
+  }
+  .navbar-toggler:focus{
+    outline: none;
+  }
+  .navbar-toggler span{
+    font-size: 40px;
+    color: #ff5507;
+  }
+  .logo-mobile img{
+    width: 80%;
+  }
+  .slick-prev{
+    left: 20%;
+  }
+  .slick-next{
+    right: 20%;
+  }
+  .home-img{
+    height: 400px;
+  }
+  .mask-patron{
+    background-position: right;
+  }
+  .mask-patron .caption .title-caption p{
+    display: none;
+  }
   .services{
     background-image: none;
   }
   h4.description-services{
     margin-top: -8rem;
     font-size: 24px;
-    padding-left: 1rem;
   }
   .content-services{
     width: 100%;
-  }
-  .icon-service{
-    padding-left: 80px;
   }
   .text-services{
     font-size: 1rem;
@@ -26,13 +77,14 @@
   .content-img{
     box-shadow: none;
     background-color: transparent;
+    width: 100%;
+    height: 100%;
   }
   .description-alquiler{
     display: none;
   }
   .button-alquiler{
-    margin-left: -7.5rem;
-    margin-top: 15rem;
+    margin-left: 0;
   }
   .alquiler-equipos{
     height: auto;
@@ -54,13 +106,17 @@
     height: auto;
   }
   .caption{
-    height: 100vh;
+    height: 100%;
+  }
+  .title-caption{
+    width: 100%;
+    right: 1%;
   }
   .title-caption h2{
     width: 100%;
     margin-top: 2rem;
     font-size: 1.8rem;
-    margin-left: -100px;
+    text-align: center;
     padding-bottom: 2rem;
   }
   .title-caption p{
@@ -76,9 +132,33 @@
     padding-left: 0;
     font-size: 1rem;
   }
+  .content-nosotros{
+    width: 100%;
+    margin-left: 0;
+  }
   .separacion{
     margin-top: 2rem;
-    margin-left: 1rem;
+  }
+  #accordion {
+    border-left: 2px solid #1c4a83;
+    border-right: none;
+  }
+  .content-contact{
+    width: 100%;
+  }
+  .modal-dialog{
+    max-width: 100%;
+  }
+  .content-img{
+    left: 0;
+    top: 0;
+  }
+  .content-description{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .nuestro-compromiso{
     padding-right: 0;
@@ -89,13 +169,14 @@
     margin-top: 3rem !important;
     margin-bottom: 20px;
   }
+  #alquiler-equipos{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
   #header{
     background-image: none;
     height: auto;
     margin-bottom: 5rem;
-  }
-  .mask-patron{
-    background-image: none;
   }
   .objetivos{
     height: auto;
@@ -105,6 +186,7 @@
     margin-left: 1rem;
   }
   #footer{
+    background-image: none;
     height: auto;
     margin-top: 1rem;
     padding: 0 2rem;
@@ -135,12 +217,12 @@
   .last-question{
     margin-bottom: 4rem;
   }
-  
+
   .img-overview img{
     width: 100%;
   }
   #descargas{
-    padding-left: 2rem;
+    height: auto;
   }
   .img-overview{
     margin-top: 2rem;
@@ -170,9 +252,7 @@
   .img-overview img{
     width: 100%;
   }
-  .content-nosotros{
-    width: 100%;
-  }
+
   .nosotros{
     height: auto;
   }
@@ -303,8 +383,8 @@
 /*Fin Laptop pequeña*/
 
 /*Laptop*/
-@media (min-width: 1281px) and (max-width: 1380px){
-  html {
-   
-
+@media screen and (min-width: 992px){
+  #nav-mobile{
+    display: none;
+  }
 }
